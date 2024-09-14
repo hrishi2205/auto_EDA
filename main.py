@@ -6,7 +6,6 @@ matplotlib.use("Agg")
 import seaborn as sns
 
 def main():
-    st.set_option('deprecation.showPyplotGlobalUse', False)
 
     activities = ["EDA", "Adding soon"]   
     choice = st.sidebar.selectbox("Select Activities", activities)
